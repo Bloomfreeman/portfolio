@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Developer portfolio - terminal inspired personal website">
+  <title>Higewengel Alemayehu | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#home"><span>~/</span>portfolio</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="terminal-line"><span class="prompt">visitor@portfolio:~$</span> whoami</p>
+          <h1>Hi, I'm <span class="accent">Higewengel Alemayehu</span>.</h1>
+          <h2><span id="typedText"></span><span class="cursor">_</span></h2>
+          <p class="hero-description">
+            I troubleshoot, maintain, and build IT infrastructure. I'm good at networking, routing, and configuring servers and computers.
+          </p>
+          <p class="accent">FYI: I go with "bloom freeman" on social media. So feel free to reach out!</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">./view-projects</a>
+            <a class="btn btn-secondary" href="#contact">./contact-me</a>
+          </div>
+
+          <div class="status">
+            <span class="status-dot"></span>
+            <span>Available for opportunities</span>
+          </div>
+        </div>
+
+        <div class="terminal-card reveal delay-1">
+          <div class="terminal-top">
+            <div class="window-buttons">
+              <span></span><span></span><span></span>
+            </div>
+            <span>developer.sh</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="green">➜</span> <span class="cyan">~</span> cat profile.json</p>
+            <pre>{
+  <span class="key">"name"</span>: <span class="string">"Higewengel Alemayehu"</span>,
+  <span class="key">"role"</span>: <span class="string">"Junior IT officer"</span>,
+  <span class="key">"focus"</span>: [
+    <span class="string">"troubleshoot"</span>,
+    <span class="string">"maintain"</span>,
+    <span class="string">"build"</span>
+  ],
+  <span class="key">"status"</span>: <span class="string">"learning & building"</span>
+}</pre>
+            <p><span class="green">➜</span> <span class="cyan">~</span> <span class="typing-command">npm run create</span><span class="cursor">_</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <span class="section-number">01.</span>
+        <div>
+          <p class="eyebrow">// about_me</p>
+          <h2>Behind the terminal.</h2>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a Computer Science graduate interested in IT infrastructure, networking, and system administration. I enjoy taking things apart and figuring out how they work and learning from the experience.
+          </p>
+          <p>
+            My approach is simple: learn, experiment, debug, improve and repeat.
+            I'm comfortable working across different operating systems and machines and
+            I'm always looking for opportunities to grow.
+          </p>
+          <div class="quote">
+            <span>></span>
+            <em>"The best way to learn is to build."</em>
+          </div>
+        </div>
+
+        <div class="about-terminal terminal-card reveal delay-1">
+          <div class="terminal-top">
+            <div class="window-buttons"><span></span><span></span><span></span></div>
+            <span>about.txt</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="green">➜</span> <span class="cyan">~</span> ./show-info</p>
+            <div class="info-row"><span>education</span><strong>Computer Science</strong></div>
+            <div class="info-row"><span>operating systems</span><strong>Windows · Linux · macOS · Windows server · Linux server</strong></div>
+            <div class="info-row"><span>machines</span><strong>Computer · NAS · Server</strong></div>
+            <div class="info-row"><span>tools</span><strong>GitHub · Cisco Packet Tracer · Wireshark · TrueNAS</strong></div>
+            <div class="info-row"><span>mindset</span><strong>Always learning</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal">
+        <span class="section-number">02.</span>
+        <div>
+          <p class="eyebrow">// skills</p>
+          <h2>Work ethics.</h2>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span class="skill-icon">{🕗}</span>
+          <h3>Time management</h3>
+          <p>I show up on time, meet deadlines, and manage my personal and professional responsibilities effectively.</p>
+          <!-- <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vue.js</span><span>Tailwind</span>
+          </div> -->
+        </article>
+
+        <article class="skill-card reveal delay-1">
+          <span class="skill-icon">{💼}</span>
+          <h3>Professionalism</h3>
+          <p>I maintain a high level of professionalism in my work, ensuring quality and reliability in all projects I undertake.</p>
+          
+        </article>
+
+        <article class="skill-card reveal delay-2">
+          <span class="skill-icon">{📊}</span>
+          <h3>Workflow</h3>
+          <p>I have a structured approach to development, utilizing version control systems and development environments to streamline my workflow.</p>
+          
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal">
+        <span class="section-number">03.</span>
+        <div>
+          <p class="eyebrow">// selected_work</p>
+          <h2>Things I've connected.</h2>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured reveal">
+          <div class="project-top">
+            <span class="folder">01</span>
+            
+          </div>
+          <p class="project-command">$ project --open network</p>
+          <h3>Network</h3>
+          <p>
+            Peer-to-peer, client-server, and hybrid network topologies with routing, switching, and firewall configurations.
+          </p>
+          <div class="tags"><span>TrueNAS</span><span>Cisco Packet Tracer</span></div>
+        </article>
+
+        <article class="project-card reveal delay-1">
+          <div class="project-top">
+            <span class="folder">02</span>
+            
+          </div>
+          <p class="project-command">$ project --open social</p>
+          <h3>Installation</h3>
+          <p>
+            I installed and configured operating systems, software, and applications on various devices with access control, ensuring connectivity and communication between them.
+          </p>
+          <div class="tags"><span>Windows</span><span>macOS</span><span>Linux</span><span>TrueNAS</span></div>
+        </article>
+
+        <article class="project-card reveal delay-2">
+          <div class="project-top">
+            <span class="folder">03</span>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub project">↗ GitHub</a>
+              <a href="#" aria-label="Live project">↗ Live</a>
+            </div>
+          </div>
+          <p class="project-command">$ project --open software</p>
+          <h3>Maintenance</h3>
+          <p>
+            I maintain IT infrastructure, including servers, networks, and devices, to ensure optimal performance and security. 
+          </p>
+          <div class="tags"><span>Router</span><span>Firewall</span><span>Switch</span></div>
+        </article>
+      </div>
+
+      <div class="projects-note reveal">
+        <span class="prompt">visitor@portfolio:~$</span> git status
+        <span class="success">working tree clean — more projects coming...</span>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal">
+        <span class="section-number">04.</span>
+        <div>
+          <p class="eyebrow">// contact</p>
+          <h2>Let's build something.</h2>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-copy reveal">
+          <p>
+            Have a project, job opportunity or just want to talk about technology?
+            Send me a message.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:bloomfreeman2@gmail.com"><span>email</span><strong>bloomfreeman2@gmail.com</strong></a>
+            <a href="https://github.com/bloomfreeman" target="_blank" rel="noopener"><span>github</span><strong>github.com/bloomfreeman</strong></a>
+            <a href="https://linkedin.com/in/higewengel-alemayehu" target="_blank" rel="noopener"><span>linkedin</span><strong>linkedin.com/in/higewengel-alemayehu</strong></a>
+          </div>
+        </div>
+
+        <form class="contact-form terminal-card reveal delay-1" id="contactForm">
+          <div class="terminal-top">
+            <div class="window-buttons"><span></span><span></span><span></span></div>
+            <span>send-message.sh</span>
+          </div>
+          <div class="form-body">
+            <label for="name"><span class="green">➜</span> name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+
+            <label for="email"><span class="green">➜</span> email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+            <label for="message"><span class="green">➜</span> message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type your message..." required></textarea>
+
+            <button class="btn btn-primary submit-btn" type="submit">./send-message</button>
+            <p class="form-message" id="formMessage"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><span class="prompt">~/portfolio</span> · Built with HTML, CSS & JavaScript.</p>
+    <p>© <span id="year"></span> Higewengel Alemayehu</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

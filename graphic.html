@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Graphic Design and Social Media Management Portfolio">
+  <title>Higewengel Alemayehu | Graphic Design and Social Media Management Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#home"><span>~/</span>portfolio</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="terminal-line"><span class="prompt">visitor@portfolio:~$</span> whoami</p>
+          <h1>Hi, I'm <span class="accent">Higewengel Alemayehu</span>.</h1>
+          <h2><span id="typedText"></span><span class="cursor">_</span></h2>
+          <p class="hero-description">
+            I design logos, posters, social media content and other visual materials that help businesses and individuals communicate their message effectively. I also manage social media accounts to help brands grow their online presence and engage with their audience.
+          </p>
+          <p class="accent">FYI: I go with "bloom freeman" on social media. So feel free to reach out!</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="asset/graphic/portfolio.pdf" target="_blank">./portfolio</a>
+            <a class="btn btn-secondary" href="#contact">./contact-me</a>
+          </div>
+
+          <div class="status">
+            <span class="status-dot"></span>
+            <span>Available for opportunities</span>
+          </div>
+        </div>
+
+        <div class="terminal-card reveal delay-1">
+          <div class="terminal-top">
+            <div class="window-buttons">
+              <span></span><span></span><span></span>
+            </div>
+            <span>Designer.sh</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="green">➜</span> <span class="cyan">~</span> cat profile.json</p>
+            <pre>{
+  <span class="key">"name"</span>: <span class="string">"Higewengel Alemayehu"</span>,
+  <span class="key">"role"</span>: <span class="string">"Graphic Designer"</span>,
+  <span class="key">"focus"</span>: [
+    <span class="string">"Logo Design"</span>,
+    <span class="string">"Poster Design"</span>,
+    <span class="string">"Social Media Management"</span>
+  ],
+  <span class="key">"status"</span>: <span class="string">"learning & building"</span>
+}</pre>
+            <p><span class="green">➜</span> <span class="cyan">~</span> <span class="typing-command">npm run create</span><span class="cursor">_</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <span class="section-number">01.</span>
+        <div>
+          <p class="eyebrow">// about_me</p>
+          <h2>Behind the screen.</h2>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a passionate graphic designer and social media manager with a keen eye for aesthetics and a love for creating visually appealing content. I enjoy turning ideas into reality through design and helping brands tell their story effectively.  
+          </p>
+          <p>
+            My approach is simple: learn, experiment, revise, improve and repeat.
+            I'm comfortable working across any creative tools and
+            I'm always looking for opportunities to grow.
+          </p>
+          <div class="quote">
+            <span>></span>
+            <em>"The best way to learn is to create."</em>
+          </div>
+        </div>
+
+        <div class="about-terminal terminal-card reveal delay-1">
+          <div class="terminal-top">
+            <div class="window-buttons"><span></span><span></span><span></span></div>
+            <span>about.txt</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="green">➜</span> <span class="cyan">~</span> ./show-info</p>
+            <div class="info-row"><span>education</span><strong>Computer Science · Graphic Design(with QIYAS project)</strong></div>
+            <div class="info-row"><span>creative tools</span><strong>Adobe Photoshop · Illustrator · InDesign · Scribus · and more</strong></div>
+            <div class="info-row"><span>social media</span><strong>Instagram · Facebook · Threads · TikTok</strong></div>
+            <div class="info-row"><span>interests</span><strong>Typography · Color Theory · Branding</strong></div>
+            <div class="info-row"><span>mindset</span><strong>Always learning</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal">
+        <span class="section-number">02.</span>
+        <div>
+          <p class="eyebrow">// skills</p>
+          <h2>Work ethics.</h2>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span class="skill-icon">{🕗}</span>
+          <h3>Time management</h3>
+          <p>I show up on time, meet deadlines, and manage my personal and professional responsibilities effectively.</p>
+          <!-- <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vue.js</span><span>Tailwind</span>
+          </div> -->
+        </article>
+
+        <article class="skill-card reveal delay-1">
+          <span class="skill-icon">{💼}</span>
+          <h3>Professionalism</h3>
+          <p>I maintain a high level of professionalism in my work, ensuring quality and reliability in all projects I undertake.</p>
+          
+        </article>
+
+        <article class="skill-card reveal delay-2">
+          <span class="skill-icon">{📊}</span>
+          <h3>Workflow</h3>
+          <p>I have a structured approach to development, utilizing version control systems and development environments to streamline my workflow.</p>
+          
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal">
+        <span class="section-number">03.</span>
+        <div>
+          <p class="eyebrow">// selected_work</p>
+          <h2>Things I've created.</h2>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured reveal">
+          <div class="project-top">
+            <span class="folder">01</span>
+            <div class="project-links">
+              <a href="https://instagram.com/bloomfreeman1" aria-label="Instagram profile" target="_blank">↗ Instagram</a>
+            </div>
+          </div>
+          <p class="project-command">$ project --open poster</p>
+          <h3>Posters</h3>
+          <p>
+            It was a hopefull attempt, but at least I got one of them right 😂
+          </p>
+          <div class="image-container">
+            <a href="asset/graphic/argentina.jpg" target="_blank" rel="noopener noreferrer "id="diff_format">
+            <img src="asset/graphic/argentina.jpg" alt="" id="fullscreenImage"></a>
+            <a href="asset/graphic/arsenal.jpg" target="_blank" rel="noopener noreferrer" id="diff_format">
+              <img src="asset/graphic/arsenal.jpg" alt="" id="fullscreenImage"></a>
+            </a>
+          </div>
+          <div class="tags"><span>Adobe Photoshop</span><span>Pngwing</span></div>
+        </article>
+
+        <article class="project-card reveal delay-1">
+          <div class="project-top">
+            <span class="folder">02</span>
+            <div class="project-links">
+              <a href="https://instagram.com/bloomfreeman1" aria-label="Instagram profile" target="_blank">↗ Instagram</a>
+            </div>
+          </div>
+          <p class="project-command">$ project --open promotional poster</p>
+          <h3>Promotional Poster</h3>
+          <p>
+            Just expermenting with different styles and techniques to create a visually appealing poster for a fictional event. The goal was to capture attention and convey the theme effectively.(I created this as a training exercise so it might not be orignal concept.)
+          </p>
+          <div class="image-container">
+            <a href="asset/graphic/blackposterconsept.jpg" target="_blank" rel="noopener noreferrer" id="fullscreenImage">
+            <img src="asset/graphic/blackposterconsept.jpg" alt="" id="fullscreenImage"></a>
+          </div>
+          <div class="tags"><span>Adobe Photoshop</span></div>
+        </article>
+
+        <article class="project-card reveal delay-2">
+          <div class="project-top">
+            <span class="folder">03</span>
+            <div class="project-links">
+              <a href="https://instagram.com/bloomfreeman1" aria-label="Instagram profile" target="_blank">↗ Instagram</a>
+            </div>
+          </div>
+          <p class="project-command">$ project --open branding</p>
+          <h3>Branding</h3>
+          <p>
+            A branding project for a fictional company, focusing on creating a cohesive visual identity that reflects the brand's values and personality. The project includes logo design, color palette, typography, and other visual elements to establish a strong brand presence.
+          </p>
+          <div class="image-container">
+            <a href="asset/graphic/titanbrand.jpg" target="_blank" rel="noopener noreferrer">
+              <img src="asset/graphic/titanbrand.jpg" alt="" id="fullscreenImage">
+            </a>
+          </div>
+          <div class="tags"><span>Adobe Photoshop</span><span>Adobe Illustrator</span><span>Pngwing</span></div>
+        </article>
+
+        <article class="project-card reveal delay-3">
+          <div class="project-top">
+            <span class="folder">04</span>
+            <div class="project-links">
+              <a href="https://instagram.com/bloomfreeman1" aria-label="Instagram profile" target="_blank">↗ Instagram</a>
+            </div>
+          </div>
+          <p class="project-command">$ project --open poster</p>
+          <h3>Brand Poster</h3>
+          <p>
+            A poster design project for a fictional brand, focusing on creating a visually striking and memorable poster that effectively communicates the brand's message and values.
+          </p>
+          <a href="asset/graphic/poster.jpg" target="_blank" rel="noopener noreferrer" id="diff_format">
+              <img src="asset/graphic/poster.jpg" alt="" id="fullscreenImage" style="width: 100%;">
+            </a>
+          <div class="tags"><span>Adobe Photoshop</span><span>Pngwing</span><span>Pinterest</span></div>
+        </article>
+
+        <article class="project-card reveal delay-4">
+          <div class="project-top">
+            <span class="folder">05</span>
+            <div class="project-links">
+              <a href="https://instagram.com/bloomfreeman1" aria-label="Instagram profile" target="_blank">↗ Instagram</a>
+            </div>
+          </div>
+          <p class="project-command">$ project --open desdeslogo</p>
+          <h3>Desdes Logo</h3>
+          <p>
+            A logo design project for a fictional juice company, focusing on vaibrant and fresh visuals that appeal to kids and customors of all ages. 
+          </p>
+          <a href="asset/graphic/desdeslogo.png" target="_blank" rel="noopener noreferrer"id="fullscreenImage">
+              <img src="asset/graphic/desdeslogo.png" alt="" id="fullscreenImage">
+            </a>
+          <div class="tags"><span>Adobe Illustrator</span></div>
+        </article>
+
+        <article class="project-card reveal delay-5">
+          <div class="project-top">
+            <span class="folder">04</span>
+            <div class="project-links">
+              <a href="https://instagram.com/bloomfreeman1" aria-label="Instagram profile" target="_blank">↗ Instagram</a>
+            </div>
+          </div>
+          <p class="project-command">$ project --open titanlogo</p>
+          <h3>Titan</h3>
+          <p>
+            This is a fictional luxury watch brand that I created as a branding project. The goal was to design a logo and visual identity that reflects the brand's values of elegance, sophistication, and timelessness.
+          </p>
+          <a href="asset/graphic/titan.jpg" target="_blank" rel="noopener noreferrer"id="fullscreenImage">
+              <img src="asset/graphic/titan.jpg" alt="" id="fullscreenImage" width="100%">
+            </a>
+          <div class="tags"><span>Node</span><span>Express</span><span>PostgreSQL</span><span>Sequelize</span></div>
+        </article>
+
+        <article class="project-card reveal delay-6">
+          <div class="project-top">
+            <span class="folder">05</span>
+            <div class="project-links">
+              <a href="https://instagram.com/bloomfreeman1" aria-label="Instagram profile" target="_blank">↗ Instagram</a>
+            </div>
+          </div>
+          <p class="project-command">$ project --open titanlogo2</p>
+          <h3>Titan</h3>
+          <p>
+            This is another version of the same watch brand just seeing it in different way.
+          </p>
+          <a href="asset/graphic/titanline.jpg" target="_blank" rel="noopener noreferrer" id="fullscreenImage">
+              <img src="asset/graphic/titanline.jpg" alt="" id="fullscreenImage" style="width: 100%;">
+            </a>
+          <div class="tags"><span>Adobe Illustrator</span></div>
+        </article>
+
+        <article class="project-card featured reveal delay-7">
+          <div class="project-top">
+            <span class="folder">06</span>
+            <div class="project-links">
+              <a href="https://instagram.com/bloomfreeman1" aria-label="Instagram profile" target="_blank">↗ Instagram</a>
+            </div>
+          </div>
+          <p class="project-command">$ project --open pmaterial</p>
+          <h3>Promotional Material</h3>
+          <p>
+            Fun and vibrant visuals to appeal  customers
+          </p>
+          <div class="image-container">
+            <a href="asset/graphic/freshjuice_apple.jpg" target="_blank" rel="noopener noreferrer" id="triplet">
+              <img src="asset/graphic/freshjuice_apple.jpg" alt="" id="fullscreenImage"">
+            </a>
+            <a href="asset/graphic/freshjuice_mango.jpg" target="_blank" rel="noopener noreferrer" id="triplet">
+              <img src="asset/graphic/freshjuice_mango.jpg" alt="" id="fullscreenImage"">
+            </a>
+            <a href="asset/graphic/freshjuice_orange.jpg" target="_blank" rel="noopener noreferrer" id="triplet">
+              <img src="asset/graphic/freshjuice_orange.jpg" alt="" id="fullscreenImage"">
+            </a>
+          </div>
+          <div class="tags"><span>Adobe Photoshop</span><span>Adobe Illustrator</span><span>Pngwing</span></div>
+        </article>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal">
+        <span class="section-number">04.</span>
+        <div>
+          <p class="eyebrow">// contact</p>
+          <h2>Let's build something.</h2>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-copy reveal">
+          <p>
+            Have a project, job opportunity or just want to talk about technology?
+            Send me a message.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:bloomfreeman2@gmail.com"><span>email</span><strong>bloomfreeman2@gmail.com</strong></a>
+            <a href="https://github.com/bloomfreeman" target="_blank" rel="noopener"><span>github</span><strong>github.com/bloomfreeman</strong></a>
+            <a href="https://linkedin.com/in/higewengel-alemayehu" target="_blank" rel="noopener"><span>linkedin</span><strong>linkedin.com/in/higewengel-alemayehu</strong></a>
+          </div>
+        </div>
+
+        <form class="contact-form terminal-card reveal delay-1" id="contactForm">
+          <div class="terminal-top">
+            <div class="window-buttons"><span></span><span></span><span></span></div>
+            <span>send-message.sh</span>
+          </div>
+          <div class="form-body">
+            <label for="name"><span class="green">➜</span> name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+
+            <label for="email"><span class="green">➜</span> email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+            <label for="message"><span class="green">➜</span> message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type your message..." required></textarea>
+
+            <button class="btn btn-primary submit-btn" type="submit">./send-message</button>
+            <p class="form-message" id="formMessage"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><span class="prompt">~/portfolio</span> · Built with HTML, CSS & JavaScript.</p>
+    <p>© <span id="year"></span> Higewengel Alemayehu</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
